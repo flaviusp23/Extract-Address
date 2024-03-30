@@ -43,12 +43,16 @@ Threading module is included in the Python Standard Library and does not require
 ### 7. Difflib (Included in Python Standard Library)
 Difflib module is included in the Python Standard Library and does not require separate installation.
 
+## Known Issues & Future Improvements
+* SSL Certificate Issues: Some websites may encounter SSL certificate errors, leading to incomplete data retrieval or parsing failures. A future improvement will focus on fixing SSL certificate issues to ensure seamless data extraction.
+* Secondary Parse Method: To enhance address parsing accuracy, a secondary parsing method will be implemented. This method will provide redundancy and improve the reliability of address extraction, reducing the likelihood of exporting incorrect addresses.
+
 ## Usage
 * Users can utilize Address Parser and Extractor to extract and parse addresses from company websites efficiently. Here's how to use the tool:
 * Input File: Provide a file containing a list of company websites in a suitable format (e.g., Parquet).
 * Extraction Process: The application sends requests to each website, extracts text content, and parses addresses using advanced algorithms.
 * Address Parsing: Extracted addresses are parsed to obtain structured data, including country, region, city, postcode, and road details.
-* Similar Address Removal: Address similarity is evaluated and similar addresses are removed, ensuring a clean and unique address dataset.
+* Similar Address Removal: Address similarity is evaluated, and similar addresses are removed, ensuring a clean and unique address dataset.
 * Export: Parsed addresses are exported to a CSV file for further analysis or integration with other systems.
 
 ## Efficiency
