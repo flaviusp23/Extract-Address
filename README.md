@@ -12,6 +12,37 @@ The application relies on several modules and dependencies to streamline the add
 * Threading: Utilized for concurrent processing of multiple website requests.
 * Difflib: Enables comparison of address similarity for removal of duplicates.
 
+## Installation Guide
+
+### 1. Pandas
+```bash
+pip install pandas
+```
+
+### 2. Requests
+```bash
+pip install requests
+```
+
+### 3. BeautifulSoup
+```bash
+pip install beautifulsoup4
+```
+
+### 4. pyap
+```bash
+pip install pyap
+```
+
+### 5. JSON (Included in Python Standard Library)
+JSON module is included in the Python Standard Library and does not require separate installation.
+
+### 6. Threading (Included in Python Standard Library)
+Threading module is included in the Python Standard Library and does not require separate installation.
+
+### 7. Difflib (Included in Python Standard Library)
+Difflib module is included in the Python Standard Library and does not require separate installation.
+
 ## Usage
 * Users can utilize Address Parser and Extractor to extract and parse addresses from company websites efficiently. Here's how to use the tool:
 * Input File: Provide a file containing a list of company websites in a suitable format (e.g., Parquet).
